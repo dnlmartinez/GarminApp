@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE layout [
+<!ENTITY leftMarginX "5">
+<!ENTITY topLblY_1 "20">
+<!ENTITY topValY_1 "45">
+<!ENTITY topLblY_2 "80">
+<!ENTITY topValY_2 "105">
+<!ENTITY topLblY_3 "140">
+<!ENTITY topValY_3 "165">
+<!ENTITY topLblY_4 "200">
+<!ENTITY topValY_4 "225">
+<!ENTITY topLblY_5 "260">
+<!ENTITY topValY_5 "285">
+<!ENTITY lblFont "Gfx.FONT_SMALL">
+<!ENTITY valFont "Gfx.FONT_NUMBER_MILD"> 
+]>
+
+<layouts>
+<layout id="DataFieldsEdge530"> 
+<drawable class="DataFieldDivisions" /> 
+<label id="DataField1Lbl" x="&leftMarginX;" y="&topLblY_1;" font="&lblFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+<label id="DataField1Val" x="&leftMarginX;" y="&topValY_1;" font="&valFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLACK" />
+<label id="DataField2Lbl" x="&leftMarginX;" y="&topLblY_2;" font="&lblFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+<label id="DataField2Val" x="&leftMarginX;" y="&topValY_2;" font="&valFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLACK" /> 
+<label id="DataField3Lbl" x="&leftMarginX;" y="&topLblY_3;" font="&lblFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+<label id="DataField3Val" x="&leftMarginX;" y="&topValY_3;" font="&valFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLACK" /> 
+<label id="DataField4Lbl" x="&leftMarginX;" y="&topLblY_4;" font="&lblFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+<label id="DataField4Val" x="&leftMarginX;" y="&topValY_4;" font="&valFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLACK" />
+<label id="DataField5Lbl" x="&leftMarginX;" y="&topLblY_5;" font="&lblFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+<label id="DataField5Val" x="&leftMarginX;" y="&topValY_5;" font="&valFont;" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLACK" />
+</layout>
+</layouts>

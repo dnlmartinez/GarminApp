@@ -1,0 +1,75 @@
+<resources> <properties>
+<property id="DataFieldQty" type="number">4</property> 
+<property id="DataField1" type="number">2</property>
+<property id="DataField2" type="number">0</property>
+<property id="DataField3" type="number">1</property>
+<property id="DataField4" type="number">3</property>
+<property id="DataField5" type="number">4</property>
+</properties>
+<settings> 
+<setting propertyKey="@Properties.DataFieldQty" title="@Strings.DataFieldQtyTitle">
+<settingConfig type="list">
+<listEntry value="1">@Strings.One</listEntry>
+<listEntry value="2">@Strings.Two</listEntry>
+<listEntry value="3">@Strings.Three</listEntry>
+<listEntry value="4">@Strings.Four</listEntry>
+<listEntry value="5">@Strings.Five</listEntry>
+</settingConfig>
+</setting>
+<setting propertyKey="@Properties.DataField1" title="@Strings.DataField1Title">
+<settingConfig type="list">
+<listEntry value="0">@Strings.FieldSpeed</listEntry>
+<listEntry value="1">@Strings.FieldCadence</listEntry>
+<listEntry value="2">@Strings.FieldPower</listEntry>
+<listEntry value="3">@Strings.FieldTemp</listEntry>
+<listEntry value="4">@Strings.FieldHR</listEntry> 
+</settingConfig>
+</setting>
+<setting propertyKey="@Properties.DataField2" title="@Strings.DataField2Title">
+<settingConfig type="list">
+<listEntry value="0">@Strings.FieldSpeed</listEntry>
+<listEntry value="1">@Strings.FieldCadence</listEntry>
+<listEntry value="2">@Strings.FieldPower</listEntry>
+<listEntry value="3">@Strings.FieldTemp</listEntry>
+<listEntry value="4">@Strings.FieldHR</listEntry> 
+</settingConfig>
+</setting>
+<setting propertyKey="@Properties.DataField3" title="@Strings.DataField3Title">
+<settingConfig type="list">
+<listEntry value="0">@Strings.FieldSpeed</listEntry>
+<listEntry value="1">@Strings.FieldCadence</listEntry>
+<listEntry value="2">@Strings.FieldPower</listEntry>
+<listEntry value="3">@Strings.FieldTemp</listEntry>
+<listEntry value="4">@Strings.FieldHR</listEntry> 
+</settingConfig>
+</setting>
+<setting propertyKey="@Properties.DataField4" title="@Strings.DataField4Title">
+<settingConfig type="list">
+<listEntry value="0">@Strings.FieldSpeed</listEntry>
+<listEntry value="1">@Strings.FieldCadence</listEntry>
+<listEntry value="2">@Strings.FieldPower</listEntry>
+<listEntry value="3">@Strings.FieldTemp</listEntry>
+<listEntry value="4">@Strings.FieldHR</listEntry> 
+</settingConfig>
+</setting>
+</settings>
+<strings>
+<string id="AppName">MahleApp</string> 
+<string id="DataFieldQtyTitle">Data Field Count</string> 
+<string id="One">1</string>
+<string id="Two">2</string>
+<string id="Three">3</string>
+<string id="Four">4</string> 
+<string id="Five">5</string> 
+<string id="DataField1Title">Field 1</string>
+<string id="DataField2Title">Field 2</string>
+<string id="DataField3Title">Field 3</string>
+<string id="DataField4Title">Field 4</string> 
+<string id="DataField5Title">Field 5</string> 
+<string id="FieldSpeed">Speed</string>
+<string id="FieldCadence">Cadence</string>
+<string id="FieldPower">Power</string>
+<string id="FieldTemp">Temperature</string> 
+<string id="FieldHR">Heart Rate</string>
+</strings>
+</resources>
